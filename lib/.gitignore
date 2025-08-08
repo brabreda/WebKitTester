@@ -1,0 +1,20 @@
+# External dependencies - these will be cloned and built automatically
+# Don't commit the actual dependency sources and builds
+
+# WebKit
+webkit/
+webkit-install/
+
+# libwpe
+libwpe/
+libwpe-install/
+
+# wpebackend-fdo
+wpebackend-fdo/
+wpebackend-install/
+
+# Any other external dependencies
+*/
+
+# Keep this file to show the lib directory structure
+!.gitignore
